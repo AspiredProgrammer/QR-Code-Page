@@ -1,0 +1,55 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  font-family: "Outfit";
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./design/Outfit/Outfit-VariableFont_wght.ttf");
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.p1 {
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: larger;
+}
+
+.p2 {
+  font-size: small;
+}
+
+p {
+  text-align: center;
+}
+
+section {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  align-items: center;
+  width: min-content;
+  padding: 10px;
+}
+
+.text {
+  margin: 5px;
+}
